@@ -67,7 +67,9 @@ footer{
 }
 
 @media (max-width: 320px){
-    
+    .inicio{
+        width: 50%;
+    }
     .narvbar{
         flex-direction:column;
     }
@@ -81,11 +83,17 @@ footer{
         width: 50%;
     }
     .reserva{
+        font-size: 10px;
+    }
+    .contactos{
         font-size: 10px;
     }
 }
 
 @media (max-width: 425px){
+    .inicio{
+        width: 50%;
+    }
     .narvbar{
         flex-direction:column;
     }
@@ -101,9 +109,15 @@ footer{
     .reserva{
         font-size: 10px;
     }
+    .contactos{
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 768px){
+    .inicio{
+        width: 50%;
+    }
     .narvbar{
         flex-direction:column;
     }
@@ -111,12 +125,15 @@ footer{
         font-size:  10px;;
     }
     .surf{
-        font-size: 20px;;
+        font-size: 20   px;;
     }
     .imagen-surf{
         width: 50%;
     }
     .reserva{
+        font-size: 10px;
+    }
+    .contactos{
         font-size: 10px;
     }
 }
